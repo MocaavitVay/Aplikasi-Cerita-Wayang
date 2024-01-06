@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahArjuna7Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Arjuna"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="596dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Namun ia ditolak oleh Dropadi dengan alasan Karna lahir di kasta rendah. Arjuna bersama saudaranya yang lain menyamar sebagai Brahmana, turut serta menghadiri sayembara tersebut. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="470dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Arjuna berhasil memanah ikan tepat sasaran dengan hanya melihat pantulan bayangannya di kolam, dan ia berhak mendapatkan Dropadi. Ketika para Pandawa pulang membawa Dropadi, mereka mengaku telah membawa sedekah. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="256dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Kunti—ibu para Pandawa—yang sedang sibuk, menyuruh mereka untuk membagi rata apa yang sudah mereka dapatkan. Sesuai dengan apa yang dikatakan oleh Kunti, maka para Pandawa bersepakat untuk membagi Dropadi sebagai istri mereka. Hukuman dari perbuatan yang mengganggu adalah pembuangan selama satu tahun."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnKembali"
+        android:onClick="onbtnKembaliClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/kembali" />
+
+
+</RelativeLayout>

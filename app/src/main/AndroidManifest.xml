@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CERITAWAYANG"
+        tools:targetApi="31">
+        <activity
+            android:name=".KisahArjunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KeamananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KomentarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".KisahGatotkaca3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahGatotkaca2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahGatotkaca1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahYudhistira3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahYudhistira2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahYudhistira1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahNakula4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahNakula3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahNakula2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahNakula1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahBima3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahBima2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahBima1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengaturanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AktivitasLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KataSandiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pembayaran1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Kisaharjuna2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KisahArjuna1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EditprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BerandaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

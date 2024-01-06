@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KataSandiActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kata Sandi"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="741dp"
+        android:text="Password anda harus lebih dari enam karakter dan berisi angka, huruf, dan karakter khusus(!$@%)"
+        android:textColor="#8F8D8D"
+        android:textSize="15dp" />
+
+    <EditText
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="677dp"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="    Kata Sandi saat ini (Diperbarui pada 07/07/23)"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textColorHint="#A8A5A6"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="650dp"
+        android:src="@drawable/garis3" />
+
+    <EditText
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="618dp"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="    Kata sandi baru"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textColorHint="#A8A5A6"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="592dp"
+        android:src="@drawable/garis3" />
+
+    <EditText
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="558dp"
+        android:drawableLeft="@drawable/baseline_key_24"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="    Kata sandi baru baru sekali lagi"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textColorHint="#A8A5A6"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="530dp"
+        android:src="@drawable/garis3" />
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="534dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Lupa password?"
+        android:textSize="12dp"
+        android:textColor="#908E8E" />
+
+</RelativeLayout>

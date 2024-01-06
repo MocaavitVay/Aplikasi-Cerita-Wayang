@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahArjuna6Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Arjuna"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="298dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="448dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Pada suatu ketika, sekelompok brahmana berkumpul di tempat para Pandawa melarikan diri. Mereka membicarakan sebuah sayembara yang akan diadakan di Kerajaan Panchala. Para Pandawa datang ke tempat sayembara dengan menyamar sebagai kaum brahmana. Raja Drupada dari Panchala mengadakan sayembara untuk mendapatkan Dropadi, putrinya. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="328dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Sebuah ikan kayu diletakkan di atas kubah balairung, dan di bawahnya terdapat kolam yang memantulkan bayangan ikan yang berada di atas. Aturan menyebutkan bahwa siapa pun yang berhasil memanah ikan tersebut dengan hanya melihat pantulannya di kolam, maka ia berhak mendapatkan Dropadi.Berbagai kesatria mencoba melakukannya, tetapi tidak berhasil.Ketika Karna yang hadir pada saat itu ikut mencoba, ia berhasil memanah ikan tersebut dengan baik."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnnext6"
+        android:onClick="onbtnnext6Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+</RelativeLayout>

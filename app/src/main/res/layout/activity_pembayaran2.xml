@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Pembayaran2Activity">
+
+        <ImageView
+            android:layout_width="183dp"
+            android:layout_height="174dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginBottom="582dp"
+            android:src="@drawable/waktu" />
+
+        <TextView
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="531dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Klik ke Aplikasi OVO dan buka notifikasi untuk melanjutkan pembayaran anda dalam waktu."
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="331dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="502dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="4 menit : 50 detik"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="394dp"
+            android:layout_marginEnd="212dp"
+            android:layout_marginBottom="438dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Metode Pembayaran"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="357dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:drawableLeft="@drawable/ovo"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center_vertical"
+            android:text="    OVO"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="245dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:drawableLeft="@drawable/money"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center_vertical"
+            android:text="    Rp.35.500"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="506dp"
+            android:layout_marginEnd="234dp"
+            android:layout_marginBottom="326dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Jumlah Tagihan"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+
+        <TextView
+            android:id="@+id/Sudah"
+            android:onClick="Sudah"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="187dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Sudah melakukan pembayaran?"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/Perbarui"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="669dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="164dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Perbarui status pembayaran"
+            android:onClick="Perbarui"
+            android:textColor="@color/red"
+            android:textSize="13dp" />
+
+</RelativeLayout>

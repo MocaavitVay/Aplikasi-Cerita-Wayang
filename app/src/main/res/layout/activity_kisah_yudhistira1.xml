@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahYudhistira1Activity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="531dp"
+        android:src="@drawable/yudhistiraa" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="495dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Kisah Yudhistira"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="460dp"
+        android:drawableLeft="@drawable/baseline_favorite_24"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal"
+        android:text=" 10"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="408dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Sinopsis"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="258dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:text="Yudhishthira adalah salah satu tokoh sentral dalam epik Mahabharata, dan kisahnya menghadirkan banyak peristiwa penting dalam epik ini. Dia adalah putra tertua Raja Pandu dan Kunti, dan bersama dengan saudara-saudaranya (Bhima, Arjuna, Nakula, dan Sahadeva), mereka dikenal sebagai Pandawa. Yudhishthira terkenal sebagai sosok yang bijaksana, jujur, dan memiliki integritas moral yang tinggi, sehingga ia dijuluki Dharmaraja atau Raja Keadilan."
+        android:textSize="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="732dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="59dp"
+        android:backgroundTint="@color/grey"
+        app:cardCornerRadius="50dp">
+
+        <Button
+            android:id="@+id/MulaiBacaA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/poppins_medium"
+            android:text=" Mulai Baca"
+            android:onClick="onMulaiBacaAClick"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="733dp"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/baseline_favorite_24" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Pembayaran3Activity">
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="760dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masukkan nomor ovo yang terdaftar di ovo"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="692dp"
+        android:background="@drawable/shape1"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="    OVO"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="634dp"
+        android:fontFamily="@font/poppins"
+        android:text="1. Buka aplikasi OVO dan cek notifikasi untuk menyelesaikan pembayaran."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="541dp"
+        android:fontFamily="@font/poppins"
+        android:text="2.Pastikan Anda melakukan pembayaran dalam waktu 55 detik untuk menghindari pembayaran otomatis."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/lanjutkan"
+        android:onClick="lanjutkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="770dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/lanjutkan1" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahBima2Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Bima"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="713dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Kisah Bima"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="297dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="406dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Bhima memiliki kekuatan fisik yang luar biasa, yang menjadi sumber ketakutan bagi musuh-musuhnya. Dia adalah ahli dalam seni bela diri, terutama dalam penggunaan gada, senjata berat yang menjadi ciri khasnya. Kekuatan dan kemahirannya dalam berperang menjadikannya salah satu pejuang paling berbahaya dalam perang Kurukshetra, yang merupakan titik puncak dari konflik dalam Mahabharata."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="319dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="104dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Namun, Bhima juga dikenal karena sifat-sifatnya yang baik hati dan penuh kasih sayang. Dia adalah seorang anak yang sangat berbakti kepada ibunya, Kunti, dan merupakan saudara yang setia terhadap Pandawa lainnya. Bhima juga terkenal karena kualitas kepemimpinannya dan kemampuannya sebagai seorang diplomat."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnnextt"
+        android:onClick="onbtnnexttClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+
+</RelativeLayout>

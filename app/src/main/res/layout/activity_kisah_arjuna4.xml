@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahArjuna4Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Arjuna"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="717dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Arjuna mendapatkan Dropadi"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="207dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="496dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="     Dalam Adiparwa diceritakan bahwa Duryodana—salah satu Korawa—menganjurkan agar Pandawa beserta ibunya (Kunti) berlibur di suatu rumah di luar kerajaan. Sesungguhnya Duryodana telah mempersiapkan agar rumah tersebut dapat terbakar dengan mudah, karena ia membenci para Pandawa, terutama Bima. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="369dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Widura, paman para Pandawa dan Korawa yang waspada meminta agar para Pandawa berhati-hati dan mempersiapkan cara untuk menghadapi kemungkinan buruk yang dapat terjadi. Saat para Pandawa menginap, Purocana, pesuruh Duryodana membakar rumah tersebut. Para Pandawa beserta ibunya berhasil lolos melalui terowongan yang telah digali sebelumnya. Mereka melarikan diri ke tengah hutan dan menumpang di rumah penduduk sekitar."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnnext4"
+        android:onClick="onbtnnext4Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahYudhistira2Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Yudhistira"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="719dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Kisah Yudhistira"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="313dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Salah satu momen yang paling dikenang dalam kisah Yudhishthira adalah perjudiannya dalam permainan dadu melawan saudara sepupunya, Kaurava, yang dipimpin oleh Duryodhana. Yudhishthira yang terlalu termakan emosi akhirnya mempertaruhkan segalanya, termasuk kerajaannya dan bahkan dirinya sendiri. Dalam perjudian yang curang dan penuh konflik ini, Pandawa akhirnya kalah dan diasingkan selama 13 tahun, yang meliputi 12 tahun di hutan dan satu tahun di pengasingan rahasia."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="172dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="239dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Selama pengasingan mereka, Yudhishthira menghadapi berbagai ujian dan cobaan, yang mencakup perjalanan ke hutan yang berbahaya dan bertemu dengan berbagai tokoh mitologis. Dia juga mendapatkan pengetahuan moral dan etika dari berbagai guru selama waktu ini."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnnext1"
+        android:onClick="onbtnnext1Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+
+
+</RelativeLayout>

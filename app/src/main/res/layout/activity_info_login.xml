@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".InfoLoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Info login tersimpan"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="177dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="726dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login tersimpan"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="689dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Kami akan mengingat info akun Anda di perangkat ini. Anda tidak perlu memasukkannya saat login lagi."
+        android:textColor="#8F8D8D"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="728dp"
+        android:src="@drawable/baseline_toggle_on_24" />
+
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="646dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Nomor handphone tersimpan"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="582dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Kami akan mengingat nomor handphone ini di perangkat Anda. Anda mengakses dan memverikasi akun ini di masa mendatang tanpa kode konfirmasi"
+        android:textColor="#8F8D8D"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="331dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="649dp"
+        android:src="@drawable/baseline_toggle_off_24" />
+
+</RelativeLayout>

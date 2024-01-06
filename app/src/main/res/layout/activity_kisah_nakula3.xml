@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahBima3Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Nakula Sadewa"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="570dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Mereka mengalami pengasingan selama 13 tahun, termasuk 12 tahun di hutan dan satu tahun di pengasingan rahasia. Selama pengasingan mereka, Nakula dan Sahadeva menghadapi berbagai ujian, berjuang melawan raksasa-raksasa dan menghadapi tantangan mistis."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="430dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Dalam perang besar Kurukshetra, Nakula dan Sahadeva berperan sebagai panglima perang dan memimpin pasukan Pandawa dalam berbagai pertempuran. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="256dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Mereka menunjukkan keberanian dan keahlian dalam memerangi musuh-musuhnya. Meskipun perang ini sangat mematikan, mereka memegang teguh prinsip-prinsip moral dan berjuang demi kebenaran.Mereka menunjukkan keberanian dan keahlian dalam memerangi musuh-musuhnya. Meskipun perang ini sangat mematikan, mereka memegang teguh prinsip-prinsip moral dan berjuang demi kebenaran."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnNakula3"
+        android:onClick="onbtnNakula3Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+
+</RelativeLayout>

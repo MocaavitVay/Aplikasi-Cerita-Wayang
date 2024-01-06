@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="245dp"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="10dp"
+        android:text="Cerita Wayang"
+        android:textAlignment="center"
+        android:textColor="#A65238"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstrains" />
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="214dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="383dp"
+        android:src="@drawable/logofiks" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="177dp"
+        android:backgroundTint="@color/red"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/red"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="Login"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="643dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="@color/red"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:backgroundTint="@color/red"
+            android:fontFamily="@font/poppins_semibold"
+            android:onClick="Daftar"
+            android:text="Daftar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahBima3Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Bima"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="713dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Kisah Bima"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="483dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Salah satu momen paling terkenal dalam kisah Bhima adalah ketika ia mengalahkan raksasa bernama Hidimba dan kemudian menikahi saudari Hidimba, Hidimbi. Dari pernikahan ini, Bhima memiliki seorang putra bernama Ghatotkacha, yang juga menjadi tokoh pahlawan terkenal dalam Mahabharata"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="331dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Selama perang Kurukshetra, Bhima memainkan peran yang sangat penting dalam kemenangan Pandawa atas Kaurava. Dia memiliki peran penting dalam penghancuran banyak prajurit dan pahlawan musuh. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="240dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Setelah kemenangan Pandawa, Bhima dan saudara-saudaranya memerintah Hastinapura dengan bijaksana dan adil. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>

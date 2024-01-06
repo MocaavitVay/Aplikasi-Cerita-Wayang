@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/latarBlkgImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-56dp"
+        android:src="@drawable/bg_prfil" />
+
+    <ImageView
+        android:id="@+id/profilImageView"
+        android:layout_width="225dp"
+        android:layout_height="214dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="579dp"
+        android:src="@drawable/profil" />
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/profilImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-570dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Mocaavit"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namaTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="lihat dan edit profile"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+    <!-- Tombol Akun -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/akun"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="26dp"
+        android:layout_below="@+id/text3"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:id="@+id/AkunButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:clickable="false"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center_vertical"
+            android:onClick="onAkunClick"
+            android:text="    Akun"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tombol Keamanan -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Keamanan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/akun"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:id="@+id/KeamananButton"
+            android:onClick="onKeamananClick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:drawableLeft="@drawable/baseline_https_24"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center_vertical"
+            android:text="    Keamanan"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:clickable="false" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tombol Notifikasi -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Notifikasi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Keamanan"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:drawableLeft="@drawable/baseline_notifications_24"
+            android:fontFamily="@font/poppins_medium"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="    Notifikasi"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:clickable="false" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tombol Pengaturan -->
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/Notifikasi"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F1F1F1"
+        app:cardCornerRadius="35dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F1F1F1"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/baseline_settings_24"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center_vertical"
+            android:text="    Pengaturan"
+            android:id="@+id/PengaturanButton"
+            android:onClick="onPengaturanClick"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:clickable="false" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahArjuna3Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Arjuna"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="720dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="52dp"
+        android:src="@drawable/bg_text2" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="717dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Masa muda dan pendidikan"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="553dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Arjuna dididik bersama dengan saudara-saudaranya yang lain (para Pandawa dan Korawa) oleh Drona. Kemahirannya dalam ilmu memanah sudah tampak sejak kecil. Pada usia muda ia mendapat gelar Maharathi atau kesatria terkemuka. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="151dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="397dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Dalam suatu ujian, Drona meletakkan burung kayu pada pohon, lalu menyuruh muridnya satu-persatu untuk membidik burung tersebut, kemudian menanyakan apa saja yang sudah mereka lihat. "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="203dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Banyak murid yang menjawab bahwa mereka melihat pohon, cabang, ranting, dan segala sesuatu yang dekat dengan burung tersebut, termasuk burung itu sendiri. Ketika tiba giliran Arjuna untuk membidik, Drona menanyakan apa yang dilihatnya. Arjuna menjawab bahwa ia hanya melihat burung saja, tidak melihat benda yang lainnya"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/btnnext3"
+        android:onClick="onbtnnext3Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="787dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/btn_next" />
+
+</RelativeLayout>

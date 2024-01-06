@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Pembayaran1Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Konfirmasi"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewKisahArjuna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_main"
+        android:backgroundTint="#F1F1F1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textKisahArjuna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Kisah Arjuna"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textMasaAktif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textKisahArjuna"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Masa Aktif 1 Bulan"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textHarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/poppins_medium"
+                android:text="IDR 35.500"
+                android:textColor="#706F6F"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Bayar"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardViewKisahArjuna"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Bayar Menggunakan"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewDana"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/Bayar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="38dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonDana"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#F1F1F1"
+            android:buttonTint="#656565"
+            android:drawableLeft="@drawable/dana"
+            android:fontFamily="@font/poppins_medium"
+            android:text="     DANA"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewShoopePay"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/cardViewDana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="38dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonShoopePay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#F1F1F1"
+            android:buttonTint="#656565"
+            android:drawableLeft="@drawable/shoopepay"
+            android:fontFamily="@font/poppins_medium"
+            android:text="     ShoopePay"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewOvo"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/cardViewShoopePay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="38dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonOvo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#F1F1F1"
+            android:buttonTint="#656565"
+            android:drawableLeft="@drawable/ovo"
+            android:fontFamily="@font/poppins_medium"
+            android:text="     OVO"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewGopay"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/cardViewOvo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="38dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonGopay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#F1F1F1"
+            android:buttonTint="#656565"
+            android:drawableLeft="@drawable/gopay"
+            android:fontFamily="@font/poppins_medium"
+            android:text="     Gopay"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="736dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/total1" />
+
+    <ImageButton
+        android:id="@+id/Bayar3"
+        android:onClick="Bayar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="762dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="#F5F5F5"
+        android:src="@drawable/bayar1" />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".KisahGatotkaca3Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Kisah Gatotkaca"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="652dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="133dp"
+        android:src="@drawable/latartext1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="241dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="496dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Selain sebagai pejuang yang ulung, Gatotkaca juga dikenal karena sifat kebijaksanaannya. Dia sering memberikan nasihat yang bijaksana kepada ayahnya, Bhima, dan juga kepada Pandawa lainnya. Dia adalah contoh nyata dari seorang pahlawan yang tidak hanya memiliki kekuatan fisik yang besar tetapi juga kebijaksanaan dan kecerdasan."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="265dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="247dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|end"
+        android:text="      Salah satu momen paling terkenal dalam kisah Gatotkaca adalah ketika ia menghadapi serangan raksasa bernama Alambusha yang berusaha menghancurkan pasukan Pandawa. Dalam pertempuran yang epik, Gatotkaca menggunakan berbagai senjata dan ilmu gaib yang dimilikinya untuk mengalahkan Alambusha dan menyelamatkan pasukan Pandawa dari bahaya."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="697dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/red"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp"
+        app:cardUseCompatPadding="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="Selanjutnya"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
